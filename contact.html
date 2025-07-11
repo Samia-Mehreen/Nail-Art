@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="nav.css">
+
+</head>
+<body>
+   
+   <!-- Navbar -->
+
+<div class="navbar">
+
+  <span class="hamburger" onclick="openMenu()">&#9776;</span> 
+  <!-- <h2 style="margin-left: 20px;"><img src="Nail Art Logo.png"></h2><br> -->
+    <img class="logo" src="Nail_Arts-removebg-preview.png">
+<br>
+ <button class="signup-bar"><a class="login" href="singup.html"> signup/login</a></button>
+</div>
+
+
+<!-- Sliding side menu -->
+<div id="mySideMenu" class="side-menu">
+  <a href="javascript:void(0)" class="close-btn" onclick="closeMenu()">&times;</a>
+  <a href="index.html">Home</a>
+  
+  <!-- Dropdown button -->
+  <button class="dropdown-btn">Products</button>
+  <div class="dropdown-container">
+    <a href="nail art tools.html">Nail art tools</a>
+    <a href="Nail decor.html">Nail decor</a>
+    <a href="nail prep.html">Nail prep</a>
+    <a href="nailpolishes.html">Nail polishes</a>
+    <a href="Nail equipmeent.html">Nail equipments</a>
+    <a href="Nail extention .html">Nail extention</a>
+  </div>
+  <button class="dropdown-secbtn">Designs</button>
+    <div class="dropdown-seccontainer">
+    <a href="Flora.html">Floral</a>
+    <a href="Ombre (1).html">Ombre</a>
+    <a href="Glitter nails (1).html">Glitter</a>
+    <a href="Frenchtip (1).html">French Tip</a>
+    <a href="kidz.html">Kids</a>
+    
+    
+  </div>
+  <a href="serv.html">Services</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="Gallery.html">Gallery</a>
+</div>
+
+<!-- nav bar end -->
+
+    <main>
+
+
+        <section class="page-hero bg-light">
+            <div class="container text-center">
+                <h2>Get in Touch</h2>
+                <p class="tagline">We're here to help you achieve your perfect nails.</p>
+            </div>
+        </section>
+
+        <section class="contact-section section-padding">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Reach Out to Us</h3>
+                        <p>Have a question about our services, want to book an appointment, or just want to say hello? Fill out the form or use the contact details below.</p>
+
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p><strong>Location:</strong><br>Address</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <p><strong>Phone:</strong><br><a href="tel:[YourPhoneNumber]">4210-45774-9</a></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p><strong>Email:</strong><br><a href="mailto:[YourEmailAddress]"> NailArt@gmail.com</a></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <p><strong>Operating Hours:</strong><br>
+                                Monday - Friday: 10:00 AM - 7:00 PM<br>
+                                Saturday: 10:00 AM - 6:00 PM<br>
+                                Sunday: Closed
+                            </p>
+                        </div>
+
+                        <h4>Follow Us:</h4>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Your Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email:</label>
+                                <email type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number (Optional):</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message:</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="map-container mt-5">
+                    <h3>Find Us on the Map</h3>
+                    <iframe  id="location"   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14472.317406593313!2d67.03625564999999!3d24.92936655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1752124758237!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-to-action-footer">
+            <div class="container">
+                <h3>Ready for Your Perfect Nails?</h3>
+                <p>Book your appointment today and experience the difference at Nail Art.</p>
+                <a href="contact.html" class="btn btn-primary">Book Now</a>
+            </div>
+        </section> <!--low footer div closed-->
+    
+        </main> <!---main div closed here-->
+    
+        <footer class="main-footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="serv.html">Services</a></li>
+                            <li><a href="Nail equipmeent.html">Tools & Products</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contact Info</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> address</p>
+                        <p><i class="fas fa-phone-alt"></i> 4201-89880-8</p>
+                        <p><i class="fas fa-envelope"></i> nailarthelp@gmail.com</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nail Art. All rights reserved.</p>
+            </div>
+        </footer> <!--footer closed-->
+        
+       <script>
+
+              function openMenu() {
+    document.getElementById("mySideMenu").style.width = "250px";
+  }
+
+  function closeMenu() {
+    document.getElementById("mySideMenu").style.width = "0";
+  }
+
+  // Dropdown toggle
+  const dropdownBtn = document.querySelector('.dropdown-btn');
+  const dropdownContainer = document.querySelector('.dropdown-container');
+
+  dropdownBtn.addEventListener('click', () => {
+    dropdownContainer.style.display = dropdownContainer.style.display === 'block' ? 'none' : 'block';
+    dropdownBtn.classList.toggle('active');
+  });
+
+   // Dropdown toggle
+  const dropdownsecBtn = document.querySelector('.dropdown-secbtn');
+  const dropdownsecContainer = document.querySelector('.dropdown-seccontainer');
+
+  dropdownsecBtn.addEventListener('click', () => {
+    dropdownsecContainer.style.display = dropdownsecContainer.style.display === 'block' ? 'none' : 'block';
+    dropdownsecBtn.classList.toggle('active');
+  });
+     </script>
+    
+    </body>
+    </html>
+
+
